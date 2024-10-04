@@ -55,6 +55,7 @@
        object-fit: cover;
        cursor: pointer;
        margin: auto;
+       
   }
     } 
 
@@ -66,6 +67,9 @@
          margin-top: 2rem;
          margin-bottom: -2rem;
          margin-left: 1.5rem;
+         .imageStyle{
+            margin-bottom: -1rem;
+        }
      }
     
      .articleStyle:nth-child(2) {
@@ -73,7 +77,7 @@
          width: 569px;
          height: 580px;
          margin: auto;
-         margin-top: 1.5rem;
+         margin-top: 2rem;
          margin-left: 1.5rem;
         // background-color: gold;
     .imageStyle{
@@ -86,7 +90,7 @@
         //background-color: #C52525;
         width: 569px;
         height: 280px;
-        margin-top: 1.5rem;
+        margin-top: 2rem;
         margin-bottom: 10rem;
         .titleStyle{
             height: 90px;
@@ -102,13 +106,13 @@
          grid-area: a4;
          width: 569px;
          height: auto;
-         //height: 580px;
          //background-color: aqua;
          margin-top: -4rem;
          .imageStyle{
             height: 500px;
             width: 100%;
-            object-fit: cover;
+            object-fit: fill;
+            margin-bottom: -1rem;
          }
          
      }
@@ -126,6 +130,7 @@
             height: 200px;
             object-fit: cover;
             margin-top: -0.5rem;
+            margin-bottom: -1rem;
            
          }
          .dateStyle{
@@ -140,7 +145,7 @@
         grid-area: 6; 
         width: 1184px;
         margin-left: 1.5rem;
-        margin-top: -0.5rem;
+        margin-top: 0.5rem;
         //background-color: beige; 
         display: flex;
         flex-direction: row-reverse; 
@@ -177,16 +182,17 @@
         text-align: left; 
     
         .imageStyle {
-            width: 52%; 
+            width: 48%; 
             height: 312px; 
-            object-fit: contain; 
+            object-fit: cover; 
         }
     
         div { 
             display: flex; 
             flex-direction: column; 
             justify-content: center; 
-            padding-left: 1rem; 
+            //padding-left: 1rem; 
+            margin-right: 3.5rem;
         }
     }
     .articleStyle:nth-child(8) {
@@ -198,6 +204,7 @@
         width: 568px;
         .imageStyle{
             height: 210px;
+            margin-bottom: -1rem;
            }
     }
     .articleStyle:nth-child(9){
@@ -205,6 +212,7 @@
         width: 568px;
        .imageStyle{
         height: 210px;
+        margin-bottom: -1rem;
        }
     }
     
@@ -249,10 +257,11 @@
             margin-left: 1.5rem; 
             margin-top: 0.5rem; 
         }
+       
         }
         
         .articleStyle:nth-child(3) {
-            margin-top: -0.5rem;
+            margin-top: 0.5rem;
             margin-left: 1.5rem;
             //background-color: #C52525;
             .titleStyle{
@@ -281,8 +290,12 @@
             .readMore{
                 margin-left: 1rem;
             }
+            .imageStyle{
+                margin-bottom: -1rem;
+            }
         }
         .articleStyle:nth-child(2) {
+            margin-top: 2.5rem;
            height: auto;
            //width: 100%;
             .titleStyle{
@@ -296,9 +309,13 @@
             .readMore{
                 margin-left: 1rem;
             }
+            .imageStyle{
+                margin-bottom: -1rem;
+            }
         }
         .articleStyle:nth-child(4) {
            margin-top: -5rem;
+           margin-left: 1.5rem;
            height: 100%;
             .titleStyle{
                 font-size: 22px;
@@ -320,7 +337,7 @@
         }
         .articleStyle:nth-child(5) {
            margin-top: -0.5rem;
-           margin-left: 1.7rem;
+           margin-left: 1.5rem;
            height:auto;
             .titleStyle{
                 font-size: 22px;
@@ -332,6 +349,8 @@
             }
             .imageStyle{
                 height: auto;
+                margin-bottom: -1rem;
+                
             }
             .readMore{
                 margin-left: 1rem;
@@ -340,7 +359,7 @@
             
         }
         .articleStyle:nth-child(8) {
-            margin-top: -2rem;
+            margin-top: -1rem;
             .titleStyle{
                 font-size: 22px;
                 margin-left: 1rem;
@@ -351,11 +370,15 @@
             }
             .readMore{
                 margin-left: 1rem;
+            }
+            .imageStyle{
+                margin-bottom: -1rem;
             }
             
         }
         .articleStyle:nth-child(9) {
-          margin-top: -2rem;
+          margin-top: -1rem;
+          margin-left: 1.5rem;
             .titleStyle{
                 font-size: 22px;
                 margin-left: 1rem;
@@ -366,13 +389,16 @@
             }
             .readMore{
                 margin-left: 1rem;
+            }
+            .imageStyle{
+                margin-bottom: -1rem;
             }
             
         }
         .articleStyle:nth-child(6){
             display: block;
-            margin-top: -2rem;
-            margin-left: 1.7rem;
+            margin-top: -1rem;
+            margin-left: 1.5rem;
             .titleStyle{
                 font-size: 22px;
                 margin-left: -2rem;
@@ -388,12 +414,12 @@
                 width: 100%;
                 height: 490px;
                 object-fit: cover;
-               
+                margin-bottom: -1rem;
             }
         }
        
         .articleStyle:nth-child(7){
-            margin-top: -2rem;
+            margin-top: -1rem;
             display: block;
             .titleStyle{
                 font-size: 22px;
@@ -409,6 +435,7 @@
             .imageStyle{
                 width: 100%;
                 height: auto;
+                margin-bottom: -1rem;
             }
         }
        
