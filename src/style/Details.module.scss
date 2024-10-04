@@ -1,0 +1,102 @@
+
+
+.gridContainer {
+    max-width: 1200px;
+    margin: auto ;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    .articleStyle {
+        background-color: #fff;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+       
+        
+        .titleStyle{
+            margin-top: 3rem;
+            font-family: 'Roboto Flex';
+            font-size: 40px;
+            font-weight: 400;
+            //line-height: 46px;
+            text-align: left;
+            color: #242424;
+            margin-left: 3.5rem;
+    }
+    .dateStyle{
+        font-family: 'Roboto Flex';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        margin-left: 3.5rem;
+        color: #C52525; 
+    }
+    
+    .textStyle{
+    font-family: Roboto Flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    width: 56%;
+    margin: auto;
+    margin-bottom: 3rem;
+    
+    }
+   
+    }
+    
+    .imageStyle {
+        width: 100%;
+        height: 500px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    
+}
+
+
+
+
+
+  
+
+
+    
+@media (max-width: 700px) {
+   
+    .gridContainer{
+      
+        .articleStyle{
+            //overflow-x: hidden;
+            margin-top: 2rem;
+            .titleStyle {
+                order: 1; 
+                font-size: 18px;
+                font-weight: 400;
+                margin-left: 1.5rem;
+            }
+            .dateStyle {
+                order: 2; 
+                margin-left: 1.5rem;
+            }
+            .imageStyle {
+                order: 3; 
+                margin-top: 1rem;
+                
+            }
+            .textStyle {
+                order:4;
+               width: 90%;
+            }
+        }
+    }
+    
+   
+      
+    }
+
+

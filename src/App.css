@@ -2,10 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 #root {
-  max-width: 1280px;
-  margin: 0;
+  width: 100%;;
+   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align:center; 
 }
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F6F3F3;
+  margin: 0;
+}
+
 
 

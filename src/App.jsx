@@ -3,7 +3,9 @@ import './App.css';
 import { MainLayout } from './layout/MainLayout/MainLayout';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Alle from './pages/Alle';
-import Videnskab from './pages/Videnskab';
+import Details from './pages/Details';
+import Category from './pages/Category';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   const queryClient = new QueryClient();
@@ -14,7 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Alle />} />
-            <Route path="/videnskab" element={<Videnskab />} />
+            <Route path="/details/:id" element={<Details />} />
+            <Route path="/category/:category" element={<Category />} />
+            <Route path="/login" element={<LoginPage />} />
           </Route>
         </Routes>
       </Router>
@@ -22,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
