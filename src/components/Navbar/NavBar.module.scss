@@ -1,17 +1,12 @@
 .navBarStyle {
     width: 100%;
-    height: 77px;
+    height: 76px;
     display: flex;
     align-items: center;
     justify-content: space-between;  
-    //margin-top: -2.5rem;
-    margin-bottom: -1rem;
     background-color: #FFFFFF;
-   
-
     .titleStyle {
         color: #C52525;
-        //text-transform: uppercase;
         text-decoration: none;
         margin-right: 4rem; 
         font-family: Righteous;
@@ -19,7 +14,6 @@
         font-weight: 400;
         text-align: left;
         margin-left: 4.5rem;
-        margin-bottom: 1rem;
     }
 
     .navLinks {
@@ -61,7 +55,7 @@
 
 @media (max-width: 768px) {
     .navBarStyle {
-        margin-top: 1rem;
+        
         .titleStyle {
             margin-left: 1rem;
             font-size: 24px;

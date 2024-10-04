@@ -6,6 +6,7 @@ import Alle from './pages/Alle';
 import Details from './pages/Details';
 import Category from './pages/Category';
 import LoginPage from './pages/LoginPage';
+import NoPage from './pages/NoPage';
 
 function App() {
   const queryClient = new QueryClient();
@@ -19,6 +20,7 @@ function App() {
             <Route path="/details/:id" element={<Details />} />
             <Route path="/category/:category" element={<Category />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path="/*" element={<NoPage />} />
           </Route>
         </Routes>
       </Router>

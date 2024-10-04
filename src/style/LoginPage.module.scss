@@ -57,15 +57,27 @@
 }
 
 @media (max-width: 700px) {
+   
     .loginStyle{
         width: 600px;
         padding: 0;
-        margin-top: 1rem;
+        margin-top: 2rem;
+     .errorMessage{
+        //background-color: red;
+        padding: 2rem;
+        margin-right: 4rem;
+     }
+     .succesMessage{
+        
+        padding: 2rem;
+        margin-right: 5rem;
+     }
         h2{
             margin-top: 2rem;
             margin-left: 2rem;
             padding: 1rem;
         }
+       
         form{
             margin: auto;
             margin-left: 3rem;

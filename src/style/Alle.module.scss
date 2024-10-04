@@ -313,11 +313,13 @@
             }
             .imageStyle{
                 height: 100%;
+                object-fit: contain;
+                margin-top: -1.5rem;
                
             }
         }
         .articleStyle:nth-child(5) {
-           margin-top: 3rem;
+           margin-top: -0.5rem;
            margin-left: 1.7rem;
            height:auto;
             .titleStyle{
