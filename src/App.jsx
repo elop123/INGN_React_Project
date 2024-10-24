@@ -7,8 +7,12 @@ import Details from './pages/Details';
 import Category from './pages/Category';
 import LoginPage from './pages/LoginPage';
 import NoPage from './pages/NoPage';
+import CookieBanner from './components/CookieBanner/CookieBanner';
+import { useState } from 'react';
+import ReactGA from "react-ga4";
 
 function App() {
+  const[withAnalytics, setWithAnalytics]=useState(false)
   const queryClient = new QueryClient();
 
   return (
