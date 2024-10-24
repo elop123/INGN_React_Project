@@ -11,6 +11,15 @@ import ReactGA from "react-ga4";
     ReactGA.initialize('G-NM20KV40KL')
   }
 
+
+    // Initialize GA when user accepts cookies
+    useEffect(() => {
+        if (withTracking) {
+          ReactGA.initialize('G-NM20KV40KL');
+          
+        }
+      }, [withTracking]);
+
   function enableGA() {
     setWithTracking(true);
     setHasUserCookie(true);
@@ -29,7 +38,7 @@ import ReactGA from "react-ga4";
 
   return (
     hasUserCookie === false &&
-    hasUserAccepted === null && (
+    hasUserAccepted == null && (
       <div className={style.cookie_banner}>
         <section>
           <p>This site uses cookies for tracking purposes.</p>

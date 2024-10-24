@@ -15,11 +15,7 @@ function App() {
   const[withAnalytics, setWithAnalytics]=useState(false)
   const queryClient = new QueryClient();
 
-  ReactGA.initialize([
-    {
-      trackingId: 'G-NM20KV40KL',
-    },
-  ]);
+
 
   return (
     <QueryClientProvider client={queryClient}>
