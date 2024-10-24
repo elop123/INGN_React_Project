@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import style from "./CookieBanner.module.scss";
 import ReactGA from "react-ga4";
 
-export const CookieBanner = () => {
+ const CookieBanner = () => {
   const [withTracking, setWithTracking] = useState(false);
   const [hasUserCookie, setHasUserCookie] = useState(false);
 
@@ -43,3 +43,4 @@ export const CookieBanner = () => {
   );
 };
 
+export default CookieBanner
