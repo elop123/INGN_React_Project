@@ -40,7 +40,7 @@ import ReactGA from "react-ga4";
         </section>
       </div>
     )
-  );
-};
+  )
+}
 
 export default CookieBanner
